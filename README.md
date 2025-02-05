@@ -1,0 +1,3 @@
+# React Native Dimensions.get('window') returns undefined
+
+This repository demonstrates a common issue in React Native where `Dimensions.get('window')` returns `undefined` initially, leading to layout problems. The solution shows how to properly handle this by using the `useEffect` hook to ensure the dimensions are available before using them.  This bug is common when working with screen dimensions and calculating element sizes, especially early in the component's lifecycle.
